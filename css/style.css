@@ -1,0 +1,22 @@
+body {
+  background: #fffaf3;
+}
+
+header {
+  background: red;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  box-shadow: 2px 2px 5px #333;
+}
+
+header div {
+  background: lightgreen;
+}
+header nav {
+  background: chocolate;
+}
+
+header img {
+  width: 80px;
+}
