@@ -2,7 +2,7 @@ footer {
   margin-top: 40px;
   text-align: center;
   font-size: 14px;
-  background: red;
+  background: var(--bg-color);
   box-shadow: 2px -2px 5px #333;
   color: white;
 }
