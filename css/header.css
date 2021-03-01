@@ -5,15 +5,7 @@ background: red;
 display: flex;
 flex-flow: row nowrap;
 justify-content: space-between;
-box-shadow: 2px 2px 5px rgb(51, 51, 51);
-}
-
-header div {
-  background: lightgreen;
-}
-
-header nav {
-  background: chocolate;
+box-shadow: 2px 2px 5px #333;
 }
 
 header img {

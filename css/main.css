@@ -1,3 +1,7 @@
 body {
   background: #fffaf3;
 }
+
+a {
+  text-decoration: none;
+}
