@@ -35,9 +35,8 @@
       <section id="contact">
         <h1>Nous contacter</h1>
 
-        <form>
-
-          <fieldset>
+        <form action="#">
+        <fieldset>
             <legend>Informations</legend>
             <div>Civilités:
               <label>
@@ -51,24 +50,26 @@
             </div>
             
             <label for="lastname">Nom:</label>
-            <input id="lastname" type="text" placeholder="Votre nom">
+            <input id="lastname" name="ln" type="text" placeholder="Votre nom">
             
             <label for="firstname">Prénom:</label>
-            <input id="firstname" type="text" placeholder="Votre prénom">
+            <input id="firstname" name="fn" type="text" placeholder="Votre prénom">
         </fieldset>
 
         <fieldset>
           <legend>Message</legend>
           <div>
             <label for="object">Sujet du Message:</label>
-            <input id="object" type="text">
+            <input id="object" name="obj" type="text">
           </div>
           <div>
             <label for="mss">Votre message:</label>
-            <textarea id="mss" cols="30" rows="10"></textarea>
+            <textarea id="mss" name="mss" cols="30" rows="10"></textarea>
           </div>
         </fieldset>
 
+        <button type="submit">Envoyer</button>
+        <button type="cancel">Annuler</button>
         </form>
       </section>
     </main>
